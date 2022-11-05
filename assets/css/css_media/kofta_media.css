@@ -1,0 +1,141 @@
+@media only screen and (max-width: 1600px) {
+    .text {
+        margin: 30px 80px;
+    }
+    .wrappers-block {
+        margin: 20px 40px;
+    }
+    #block {
+        flex-basis: 340px;
+        height: 600px;
+    }
+    #block_ph {
+        width: 340px;
+        height: 400px;
+    }
+    .description {
+        width: 340px;
+        height: 200px;
+    }
+    #block_ph {
+        background-size: 350px;
+    }
+    .desc {
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .bala-text {
+        margin-left: 60px;
+    }
+    .assets {
+        margin-right: 60px;
+    }
+    .bala-text {
+        font-size: 60px;
+    }
+    .text {
+        margin: 30px 40px;
+    }
+    .wrappers-block {
+        margin: 20px 40px;
+    }
+    #block {
+        flex-basis: 280px;
+        height: 500px;
+    }
+    #block_ph {
+        width: 280px;
+        height: 300px;
+    }
+    .description {
+        width: 280px;
+        height: 200px;
+    }
+    #block_ph {
+        background-size: 280px;
+    }
+    .desc {
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .header-container {
+        height: 180px;
+    }
+    .header-container-2 {
+        margin-top: 180px;
+        height: 120px;
+    }
+    .katalog_block {
+        font-size: 78px;
+    }
+    .katalog-text {
+        padding: 3px 205px;
+    }
+    .phone {
+        display: none;
+    }
+    .bala-text {
+        font-size: 90px;
+        margin-left: 40px;
+    }
+    .assets {
+        margin-right: 40px;
+    }
+    .whts_pic {
+        width: 105px; 
+        height: 105px;
+    }
+    .inst_pic {
+        width: 95px; 
+        height: 95px;
+    }
+    .bala-text sup {
+        font-size: 40px;
+    }
+    .wrappers-block {
+        margin: 20px 40px;
+    }
+    #block {
+        flex-basis: 380px;
+        height: 650px;
+    }
+    #block_ph {
+        width: 380px;
+        height: 400px;
+    }
+    .description {
+        width: 380px;
+        height: 250px;
+    }
+    #block_ph {
+        background-size: 390px;
+    }
+    .desc {
+        margin-left: 20px;
+    }
+    .desc size {
+        font-size: 22px;
+    }
+    .desc price {
+        font-size: 35px;
+    }
+    .desc stock {
+        font-size: 22px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,159 @@
+@media only screen and (max-width: 1600px) {
+    .wrapper-block {
+        margin: 50px 60px;
+    }
+    .block {
+        height: 600px;
+        flex-basis: 30%;
+        background-size: 450px;
+    }
+    .assets-img .price {
+        font-size: 60px;
+    }
+    .text {
+        margin: 30px 80px;
+    }
+    .wrapper-grid {
+        margin: 30px 80px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .bala-text {
+        margin-left: 60px;
+    }
+    .assets {
+        margin-right: 60px;
+    }
+    .bala-text {
+        font-size: 60px;
+    }
+    .wrapper-block {
+        margin: 50px 20px;
+    }
+    .block {
+        height: 550px;
+    }
+    .assets-img .price {
+        font-size: 50px;
+    }
+    .assets-img .link_kat {
+        font-size: 40px;
+    }
+    .assets-img razm {
+        font-size: 50px;
+    }
+    .assets-img razm2 {
+        margin-top: -30px;
+    }
+    .assets-img .size {
+        font-size: 30px;
+    }
+    .assets-img .stock {
+        font-size: 25px;
+    }
+    .image {
+        height: 600px;
+    }
+    #img9, #img10 {
+        background-position: left;
+    }
+    .text {
+        margin: 30px 40px;
+    }
+    .wrapper-grid {
+        margin: 30px 40px;
+        font-size: 32px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .header-container {
+        height: 180px;
+    }
+    .header-container-2 {
+        margin-top: 180px;
+        height: 120px;
+    }
+    .katalog_block {
+        font-size: 78px;
+    }
+    .katalog-text {
+        padding: 3px 205px;
+    }
+    .phone {
+        display: none;
+    }
+    .bala-text {
+        font-size: 90px;
+        margin-left: 40px;
+    }
+    .assets {
+        margin-right: 40px;
+    }
+    .whts_pic {
+        width: 105px; 
+        height: 105px;
+    }
+    .inst_pic {
+        width: 95px; 
+        height: 95px;
+    }
+    #img1, #img4, #img5, #img8, #img9 {
+        display: none;
+    } 
+    .text_img {
+        flex-basis: 50%;
+    }
+    .image {
+        flex-basis: 50%;
+        height: 700px;
+    }
+    .assets-img .price {
+        font-size: 75px;
+    }
+    .assets-img .link_kat {
+        margin-top: 120px;
+        font-size: 60px;
+    }
+    .assets-img razm {
+        font-size: 90px;
+    }
+    .assets-img .size {
+        font-size: 40px;
+    }
+    .assets-img .stock {
+        font-size: 35px;
+    }
+    .text {
+        margin: 30px 40px;
+    }
+    .text text1 {
+        font-size: 120px;
+    }
+
+    .text text2 {
+        font-size: 30px;
+    }
+    .wrapper-grid {
+        margin: 30px 40px;
+        font-size: 60px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px 15px;
+    }
+    .bala-text sup {
+        font-size: 40px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

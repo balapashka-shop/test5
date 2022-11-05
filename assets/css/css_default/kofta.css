@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #1b1b1b;
+    height: 100%;
+}
+
+main {
+    flex: 1 1 auto;
+}
+
+.wrapper_all {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.bala-text sup {
+    font-size: 26px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #232323;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ED820E;
+}
+
+.header-container {
+    width: 100%;
+    height: 80px;
+    background-color: #232323;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 5;
+}
+
+.assets {
+    align-items: center;
+    display: flex;
+    margin-right: 120px;    
+    font-size: 30px;
+}
+
+.bala-text {
+    font-family: 'Teko', sans-serif;
+    font-size: 60px;
+    margin-top: 10px;
+    margin-left: 120px;
+    color: #ED820E;
+    cursor: default;
+}
+
+.phone {
+    cursor: default;
+    font-family: 'Teko', sans-serif;
+    color: #ED820E;
+    margin-top: 5px;
+    margin-right: 25px;
+}
+
+.whts_pic {
+    margin-top: 2px;
+    width: 70px; 
+    height: 70px;
+}
+
+.inst_pic {
+    width: 60px; 
+    height: 60px;
+    margin-top: 5px;
+}
+
+.header-container-2 {
+    width: 100%;
+    height: 50px;
+    background-color: #ED820E;
+    margin-top: 80px;
+}
+
+.katalog_block {
+    font-family: 'Oswald', sans-serif;
+    font-size: 32px;
+    text-align: center;
+}
+
+.katalog-text {
+    cursor: default;
+    padding: 3px 205px;
+    background-color: orange;
+}
+
+.header-container-2 a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.text {
+    margin: 30px 120px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+
+}
+
+.text text1 {
+    font-size: 80px;
+}
+
+.text text2 {
+    font-size: 20px;
+}
+
+
+.wrappers-block {
+    display: flex;
+    margin: 20px 120px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#block {
+    border-radius: 25px;
+    flex-basis: 390px;
+    height: 600px;
+    background-color: #232323;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    margin: 30px 8px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+#block:hover {
+    transform: scale(1.05);
+}
+
+#block_ph {
+    border-radius: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 390px;
+    width: 390px;
+    height: 400px;
+}
+
+.description {
+    border-radius: 25px;
+    width: 390px;
+    height: 200px;
+    background-color: #232323;
+}
+
+.description .name{
+    text-align: center;
+    font-size: 35px;
+}
+
+.desc {
+    margin-left: 30px;
+}
+
+.desc stock {
+    color: lawngreen;
+    font-size: 18px;
+}
+
+.desc price {
+    font-size: 30px;
+}
+
+.desc size {
+    font-size: 16px;
+}
+
+.desc sub {
+    text-decoration: line-through;
+    color: gray;
+}
+
+
+
+.wrapper-foot {
+    width: 100%;
+    height: 300px; 
+    background-color: #232323;
+    position: absolute;
+    color: silver;
+    text-align: center;
+    font-family: 'DM Serif Display', serif;
+    margin-top: 150px;
+}
+
+.assets_foot {
+    margin-top: 200px;
+}
+
+footer-text {
+    font-size: 35px;
+}
+
+made-by {
+    font-size: 18px;
+}
+
+a2022 {
+    font-size: 10px;
+}
+
+.block1_ph {
+    background-image: url(/html/balapashka.com/inside_kat/assets/images/koft/kofta1.jpeg);
+}
+
+.block2_ph {
+    background-image: url(/html/balapashka.com/inside_kat/assets/images/koft/kofta2.jpeg);
+}
+
+.block3_ph {
+    background-image: url(/html/balapashka.com/inside_kat/assets/images/koft/kofta3.jpeg);
+}
+
+.block4_ph {
+    background-image: url(/html/balapashka.com/inside_kat/assets/images/koft/kofta4.jpeg);
+}
+
+.block5_ph {
+    background-image: url(/html/balapashka.com/inside_kat/assets/images/koft/kofta5.jpeg);
+}
+
+.block6_ph {
+    background-image: url(/html/balapashka.com/inside_kat/assets/images/koft/kofta6.jpeg);
+}
+
+.block7_ph {
+    background-image: url(/html/balapashka.com/inside_kat/assets/images/koft/kofta14.jpeg);
+}
+
+.block8_ph {
+    background-image: url(/html/balapashka.com/inside_kat/assets/images/koft/kofta8.jpeg);
+}
+
+.block9_ph {
+    background-image: url(/html/balapashka.com/inside_kat/assets/images/koft/kofta9.jpeg);
+}
+
+.block10_ph {
+    background-image: url(/html/balapashka.com/inside_kat/assets/images/koft/kofta10.jpeg);
+}
+
+.block11_ph {
+    background-image: url(/html/balapashka.com/inside_kat/assets/images/koft/kofta11.jpeg);
+}
+
+.block12_ph {
+    background-image: url(/html/balapashka.com/inside_kat/assets/images/koft/kofta12.jpeg);
+}
+
+.block13_ph {
+    background-image: url(/html/balapashka.com/inside_kat/assets/images/koft/kofta13.jpeg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
