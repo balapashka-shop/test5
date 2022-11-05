@@ -9,6 +9,15 @@
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+    color: #ED820E;
+}
+
+label {
+    cursor: pointer;
+}
+
 html {
     height: 100%;
 }
